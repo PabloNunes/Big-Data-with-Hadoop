@@ -41,6 +41,24 @@
   * **Dicionário**:
     * Usa chave-valor para uma chave equivaler a um valor ao retornar
     * `Dic = {'meme':2000}`
+  * **Funções**:
+    * Você pode fazer funções com `def nome_da_funcao (variaveis,de, entrada)`.
+    * `def f(x)`
+  * **Importar bibliotecas**:
+    * O import pode importar bibliotecas para poder usar várias funções do python e bibliotecas fora dele para poder implementar funcionalidades novas.
+    * `import math`
+    * `math.pi` -> É o pi!
+  * **Manipulação de Arquivos**:
+    * Podemos usar o open e seus modos para mainpular arquivos de dados. -> `variavel = open('nome.extensao, modos)`
+    * Os modos são:
+      * `a -> append (Abre o arquivo, não deleta, bota mais)`
+      * `w -> write (Abre o arquivo, deleta antigo, reescreve)`
+      * `r -> read (Só le)`
+    * Para manipular o arquivo fazemos:
+      * `arquivo.write('Coisas aqui')`
+    * Não esqueça de fechar para não colocar coisas indesejáveis no seu arquivo
+      * `arquivo.close`
+    
   
     
   
