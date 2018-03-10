@@ -36,27 +36,27 @@
     * *O for serve para loopar uam sequencia de instruções até acabar a contagem do laço* `a = [1,2,3] -> for i in a:`
       * Neste caso i vai assumir todos os valores em a.
   * **Range**:
-    * O range serve para fazer uma lista com sequência com diversas condições.
+    * *O range serve para fazer uma lista com sequência com diversas condições.*
     * `range(0,9) = [0,1,2,...,9]`
   * **Dicionário**:
-    * Usa chave-valor para uma chave equivaler a um valor ao retornar
+    * *Usa chave-valor para uma chave equivaler a um valor ao retornar*
     * `Dic = {'meme':2000}`
   * **Funções**:
-    * Você pode fazer funções com `def nome_da_funcao (variaveis,de, entrada)`.
+    * *Você pode fazer funções com* `def nome_da_funcao (variaveis,de, entrada)`.
     * `def f(x)`
   * **Importar bibliotecas**:
-    * O import pode importar bibliotecas para poder usar várias funções do python e bibliotecas fora dele para poder implementar funcionalidades novas.
+    * *O import pode importar bibliotecas para poder usar várias funções do python e bibliotecas fora dele para poder implementar funcionalidades novas.*
     * `import math`
     * `math.pi` -> É o pi!
   * **Manipulação de Arquivos**:
-    * Podemos usar o open e seus modos para mainpular arquivos de dados. -> `variavel = open('nome.extensao, modos)`
-    * Os modos são:
+    * *Podemos usar o open e seus modos para mainpular arquivos de dados.* -> `variavel = open('nome.extensao, modos)`
+    * *Os modos são:*
       * `a -> append (Abre o arquivo, não deleta, bota mais)`
       * `w -> write (Abre o arquivo, deleta antigo, reescreve)`
       * `r -> read (Só le)`
-    * Para manipular o arquivo fazemos:
+    * *Para manipular o arquivo fazemos:*
       * `arquivo.write('Coisas aqui')`
-    * Não esqueça de fechar para não colocar coisas indesejáveis no seu arquivo
+    * *Não esqueça de fechar para não colocar coisas indesejáveis no seu arquivo:*
       * `arquivo.close`
     
   
