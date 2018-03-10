@@ -54,10 +54,44 @@
       * `a -> append (Abre o arquivo, não deleta, bota mais)`
       * `w -> write (Abre o arquivo, deleta antigo, reescreve)`
       * `r -> read (Só le)`
-    * *Para manipular o arquivo fazemos:
+    * Para manipular o arquivo fazemos:
       * `arquivo.write('Coisas aqui')`
     * Não esqueça de fechar para não colocar coisas indesejáveis no seu arquivo:
       * `arquivo.close`
+## R
+  * **Atribuir Números**
+    * Para atribuir a x um número: `x <- 8` ou `x = 8` ou `8 <- x`
+  * **Comando Seq**
+    * Produz sequencias com incio, fim e passo
+    * `seq(1,10,1) - 1 2 3 ... 10`
+    * `seq(1,10,2) - 1 3 5 ... 9`
+    * Produz sequencias reversas
+    * `seq(10,1,-3) - 10 7 4 1`
+  * **Comando Rep**
+    * Retorna o primeiro argumento pelo número indicado na segunda posição
+    * `rep(1,10)` -> `1 1 1 1 ... 1` - *10 vezes 1*
+   * **Comando 
+   * **Comando names**
+     * Mostra todas as caracteristicas que algo possui
+     * `names(x)` -> mostra o que tem em x
+   * **Função**
+     * Pode-se criar uma função em R com um nome não ocupado e fazer uma função
+     * `media <- function(dados)
+      {
+      print(sum(dados)/length(dados))
+      }`
+    * **Medidas de dispersão amostral**
+     * `var(x)` -> *Variância*
+     * `sd(x)` -> *
+    * **Teste T**
+      * É usado para comparar várias médias com amostragens diferentes.
+ ## Pig
+   * Descrição
+     * É chamada de Pig pois ele é adaptado para "comer" um monte de dados e de MUITOS tipos.
+     * Se usa o Pig Latin
+     * O Pig Latin usam os scripts escritos a eles e os convertem em mapas.
+  
+
     
   
     
