@@ -1,2 +1,2 @@
 # Big-Data-with-Hadoop
-A Big Data course with Hadoop in march/2018 at FB Uni with Lenilson Pinheiro.
+A Big Data course with Hadoop at march/2018 in FB Uni with Lenilson Pinheiro.
