@@ -116,7 +116,7 @@
       * Analisa todos os tipos de dados, estruturados ou não e armazena no HDFS
     * **Conjunto Rico de Operadores**
       * Fornece muitos operadores para executar operações (Juntar, Classificar, Filter)
-    * **Facilidade d eprogramação**
+    * **Facilidade de programação**
       * PIG Latin é semelhante ao SQL
     * **Otimização de oportunidades**
       * As tarefas se otimizam automáticamente no PIG
