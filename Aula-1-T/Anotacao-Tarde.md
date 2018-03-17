@@ -70,31 +70,35 @@
   * **Comando Rep**
     * Retorna o primeiro argumento pelo número indicado na segunda posição
     * `rep(1,10)` -> `1 1 1 1 ... 1` - *10 vezes 1*
-   * **Comando (A completar)**
-   * **Comando names**
-     * Mostra todas as caracteristicas que algo possui
-     * `names(x)` -> mostra o que tem em x
-   * **Função**
-     * Pode-se criar uma função em R com um nome não ocupado e fazer uma função
-     * `media <- function(dados)
+  * **Comando Lista**
+    * A lista permite a combinações de diferentes tipos de objetos dentro de um mesmo objeto.
+    * `R <- list(versao=2.4,origem='Austrália',notas=c(10,9,5))R`
+  * **Comando names**
+    * Mostra todas as caracteristicas que algo possui
+    * `names(x)` -> mostra o que tem em x
+  * **Função**
+    * Pode-se criar uma função em R com um nome não ocupado e fazer uma função
+    * `media <- function(dados)
       {
       print(sum(dados)/length(dados))
       }`
-    * **Medidas de dispersão amostral**
-     * `var(x)` -> *Variância*
-     * `sd(x)` -> *
-    * **Teste T**
-      * É usado para comparar várias médias com amostragens diferentes.
-     * Obs: Completarei R mais tarde
- ## Pig
-   * **Descrição**
-     * É chamada de Pig pois ele é adaptado para "comer" um monte de dados e de MUITOS tipos.
-     * Se usa o Pig Latin
-     * O Pig Latin usam os scripts escritos a eles e os convertem em mapas.
-     * O Pig diminui o tempo de desenvolvimento em 16 vezes.
-     * É muito similar ao SQL.
-     * Fornece vários comandos internos para a dados e suas operações
-    * **Diferenças do Pig vs SQL**
+  * **Medidas de dispersão amostral**
+    * `var(x)` -> *Variância*
+    * `sd(x)` -> *Desvio Padrão*
+    * `max(x) - min(x)` -> *Amplitude Total*
+    * `sd(x)/sqrt(length(x))` -> *Erro padrão da média*
+    * `sd(x)/mean(x)*100` -> *Coeficiente de variação*
+  * **Teste T**
+    * É usado para comparar várias médias com amostragens diferentes.
+## Pig
+  * **Descrição**
+    * É chamada de Pig pois ele é adaptado para "comer" um monte de dados e de MUITOS tipos.
+    * Se usa o Pig Latin
+    * O Pig Latin usam os scripts escritos a eles e os convertem em mapas.
+    * O Pig diminui o tempo de desenvolvimento em 16 vezes.
+    * É muito similar ao SQL.
+    * Fornece vários comandos internos para a dados e suas operações
+  * **Diferenças do Pig vs SQL**
 
 |Pig|SQL|
 |:---------------------------------------------------------------:|:----------------------------------------------:|
@@ -102,6 +106,21 @@
 |O esquema é opcional. Pode armazenar dados sem projetar esquema|O esquema é obrigatório|
 |É alinhado relacional|É plano relacional|
 |Menos possibilidade de otimização de consultas| Mais possibilidades de otimização de consultas 	|
+
+  * **Recursos do Apache Pig**
+    * **Extensibilidade**
+      * Os usuários podem usar suas próprias funções para ler, processar e gravar dados.
+    * **UDF'S**
+      * Facilidade para criar funções definidas pelo usuário em outras linguagens de programação
+    * **Manipula todos os tipos de dados**
+      * Analisa todos os tipos de dados, estruturados ou não e armazena no HDFS
+    * **Conjunto Rico de Operadores**
+      * Fornece muitos operadores para executar operações (Juntar, Classificar, Filter)
+    * **Facilidade d eprogramação**
+      * PIG Latin é semelhante ao SQL
+    * **Otimização de oportunidades**
+      * As tarefas se otimizam automáticamente no PIG
+     
 
 
 
